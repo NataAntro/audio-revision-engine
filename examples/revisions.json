@@ -1,0 +1,96 @@
+[
+  {
+    "name": "original.wav",
+    "revision": {
+      "id": 1,
+      "parent": null,
+      "restoredFrom": null,
+      "frames": 16800,
+      "spans": [
+        {
+          "kind": "clip",
+          "asset": "850b8c11c1b020f93c4b4b73c642507b769d57a985bab3bf3ccaf918e45c7041",
+          "offset": 0,
+          "frames": 5600
+        },
+        {
+          "kind": "clip",
+          "asset": "e30a56e3cc4b3c76629dac07913e74b73b276b7664c9401636eb8199fcbc12cc",
+          "offset": 0,
+          "frames": 5600
+        },
+        {
+          "kind": "clip",
+          "asset": "ef18d5822c421b74993b18143914f451560e42b8ad9fa7b19ba99835cb5da738",
+          "offset": 0,
+          "frames": 5600
+        }
+      ]
+    },
+    "sha256": "a513361ec67f1ee60e5a4dfe4b2adc1e32c965bc590fc1cb9bd39e231fb29bb1"
+  },
+  {
+    "name": "edited.wav",
+    "revision": {
+      "id": 2,
+      "parent": 1,
+      "restoredFrom": null,
+      "frames": 18400,
+      "spans": [
+        {
+          "kind": "clip",
+          "asset": "850b8c11c1b020f93c4b4b73c642507b769d57a985bab3bf3ccaf918e45c7041",
+          "offset": 0,
+          "frames": 5600
+        },
+        {
+          "kind": "clip",
+          "asset": "c8bda7e48ee0340ee40dac029ad5c63d809a3942bce34c9a5209ae93a8e9cd31",
+          "offset": 0,
+          "frames": 4000
+        },
+        {
+          "kind": "silence",
+          "frames": 3200
+        },
+        {
+          "kind": "clip",
+          "asset": "ef18d5822c421b74993b18143914f451560e42b8ad9fa7b19ba99835cb5da738",
+          "offset": 0,
+          "frames": 5600
+        }
+      ]
+    },
+    "sha256": "a212ec8d8e32e8a26af93b2c66040ec229c0983bd626845609a1644192abf40e"
+  },
+  {
+    "name": "restored.wav",
+    "revision": {
+      "id": 3,
+      "parent": 2,
+      "restoredFrom": 1,
+      "frames": 16800,
+      "spans": [
+        {
+          "kind": "clip",
+          "asset": "850b8c11c1b020f93c4b4b73c642507b769d57a985bab3bf3ccaf918e45c7041",
+          "offset": 0,
+          "frames": 5600
+        },
+        {
+          "kind": "clip",
+          "asset": "e30a56e3cc4b3c76629dac07913e74b73b276b7664c9401636eb8199fcbc12cc",
+          "offset": 0,
+          "frames": 5600
+        },
+        {
+          "kind": "clip",
+          "asset": "ef18d5822c421b74993b18143914f451560e42b8ad9fa7b19ba99835cb5da738",
+          "offset": 0,
+          "frames": 5600
+        }
+      ]
+    },
+    "sha256": "a513361ec67f1ee60e5a4dfe4b2adc1e32c965bc590fc1cb9bd39e231fb29bb1"
+  }
+]
